@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #b6ffbb;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #b6ffbb;
+}
+
+.navbar-nav .nav-item>.nav-link {
+    font-size: 20px;
+    margin: 0 7px 0 7px;
+}
+
+.navbar-nav {
+    margin-right: 50px;
+}
+
+footer {
+    height: 250px;
+    background: #6c757d;
+}
+footer .container .col-lg-3>h5, footer .container .col-lg-4>h5 {
+    margin-top: 20px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.kontakt .info-box>h5 {
+    color: #fff;
+    margin-left: 50px;
+}
+
+footer .container .col-lg-3>p, footer .container .col-lg-4>p {
+    margin-top: 15px;
+    color: #c6c8ca;
+}
+
+footer .container .col-lg-3 .soc-icons>i:not(:first-child), footer .container .col-lg-4 .soc-icons>i:not(:first-child) {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.mail-a {
+    margin-left: 47px;
+    position: relative;
+    top: 0;
+    font-size: 17px;
+}
+
+.icon-m, .icon-p {
+    margin: 15px 0px 0px 15px;
+}
+
+.icon-m:after {
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    margin-left: 10px;
+    content: 'Meiliaadress';
+    position: relative;
+    top: 0px;
+}
+
+.icon-p:after {
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    font-weight: 300;
+    margin-left: 10px;
+    content: 'Telefon';
+    position: relative;
+    top: 0px;
+}
+
+.info-box {
+    background: #868f98;
+    margin-top: 15px;
+    height: 69px;
+}
+
+section {
+    margin: 30px;
+}
