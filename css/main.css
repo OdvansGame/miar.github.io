@@ -52,6 +52,12 @@ footer .container .col-lg-3 .soc-icons>i:not(:first-child), footer .container .c
     margin-top: 10px;
 }
 
+.navbar-brand:before {
+    content: 'Miar ';
+    font-size: 40px;
+    font-family: 'Great Vibes';
+}
+
 .mail-a {
     margin-left: 47px;
 }
