@@ -25,7 +25,6 @@ a:hover {
 }
 
 footer {
-    height: 250px;
     background: #6c757d;
 }
 footer .container .col-lg-3>h5, footer .container .col-lg-4>h5 {
@@ -37,6 +36,10 @@ footer .container .col-lg-3>h5, footer .container .col-lg-4>h5 {
 .kontakt .info-box>h5 {
     color: #fff;
     margin-left: 50px;
+}
+
+.info {
+    padding-bottom: 30px;
 }
 
 footer .container .col-lg-3>p, footer .container .col-lg-4>p {
@@ -51,9 +54,6 @@ footer .container .col-lg-3 .soc-icons>i:not(:first-child), footer .container .c
 
 .mail-a {
     margin-left: 47px;
-    position: relative;
-    top: 0;
-    font-size: 17px;
 }
 
 .icon-m, .icon-p {
